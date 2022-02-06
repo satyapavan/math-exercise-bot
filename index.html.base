@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .equation.stacked {
+        display: inline-block;
+    }
+
+    .equation.stacked .number {
+        display: block;
+        margin-left: 1em;
+        text-align: right;
+    }
+
+    .equation.stacked .operator {
+        float: left;
+    }
+
+    .equation.stacked .equals {
+        display: block;
+        height: 0;
+        border-bottom: solid 1px black;
+        overflow: hidden;
+    }
+
+    .question_box {
+    }
+
+    .question_single {
+        float: left;
+        padding: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+
+        margin-left: 1em;
+
+        border: 1px solid black;
+    }
+    div {
+        /* presentation only */
+        margin-bottom: 1em;
+    }
+
+    * {
+        font-family: Courier New;
+        font-size: 120%
+    }
+</style>
+
+<body>
+__YOUR_QUESTIONS_HERE__
+</body>
+
+</html>
